@@ -8,26 +8,26 @@
 注意`go.mod`是可以自己手动编辑的
 
 ## 开始
-```shell
-//开启mod特性开关
+```bash
+#开启mod特性开关
 export GO111MODULE=on
 
-//拉取例子仓库
+#拉取例子仓库
 git clone https://github.com/flxxyz/go-mod-example.git && cd go-mod-example
 
-//进入例子模块目录
+#进入例子模块目录
 cd src/example
 
-//处理依赖
+#处理依赖
 go mod tidy
 
-//编译可执行文件（可选系统版本 mac,linux,linux64,windows,windows64）
+#编译可执行文件（可选系统版本 mac,linux,linux64,windows,windows64）
 make
 
-//进入编译完成目录
+#进入编译完成目录
 cd ../../bin
 
-//执行
+#执行
 ./example -h
 ```
 
